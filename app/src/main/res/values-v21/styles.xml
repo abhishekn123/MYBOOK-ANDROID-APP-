@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="material" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="itemback">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    </style>
+</resources>

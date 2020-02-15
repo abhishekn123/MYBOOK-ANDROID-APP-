@@ -1,0 +1,37 @@
+package com.example.notepad;
+
+import android.content.Context;
+import android.content.Intent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
+import java.io.File;
+import java.util.List;
+
+public class Fileadapter extends RecyclerView.Adapter<Fileadapter.MyViewHolder> {
+    private Context context;
+    private LayoutInflater inflater;
+    private List<Filemodel> filename
+
+    public Fileadapter(Context context, List<Filemodel> filename) {
+        inflater = LayoutInflater.from(context);
+        this.filename = filename;
+        this.context = context;
+    }
+
+    @Override
+    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = inflater.inflate(R.layout.file_item, parent, false);
+        MyViewHolder holder = new MyViewHolder(view);
+        ret 
+
+dependencies {
+  implementation 'com.android.support:support-v4:28.+'
+}
